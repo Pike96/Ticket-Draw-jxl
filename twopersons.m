@@ -7,7 +7,7 @@ SuccessA = zeros(ExpTimes,1);
 SuccessB = zeros(ExpTimes,1);
 
 for j = 1:ExpTimes
-    C = randperm(competitors,3);
+    C = randperm(competitors,2);
     CA = C(1);  % Competitor A
     CB = C(2);  % Competitor B
     Pool = randperm(competitors,competitors);
